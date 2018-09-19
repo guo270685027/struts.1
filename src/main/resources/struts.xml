@@ -9,6 +9,10 @@
             <result name="success">/ognlObj.jsp</result>
         </action>
 
+        <action name="ognlSet" class="cap.action.OgnlSetAction" method="ognl">
+            <result name="success">/ognlSet.jsp</result>
+        </action>
+
     </package>
 
 
